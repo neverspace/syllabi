@@ -1,0 +1,80 @@
+body {
+	font-family: "Georgia", "Bitstream Vera Serif", serif;
+	text-align: center;
+}
+
+#main {
+	text-align: left;
+	display: inline-block;
+	min-width: 30%;
+	padding: 0% 2% 2% 2%;
+
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+#main h1 {
+	text-align: center;
+}
+
+#main a {
+	text-transform: capitalize;
+}
+
+.category {
+	padding: 0.5%;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.category:hover {
+	background-color: #A7C7E7;
+	border: 1px dashed black;
+	transition: 0.3s;
+}
+
+.category-title {
+	padding: 0.5%;
+	cursor: pointer;
+	font-size: large;
+}
+
+.courses {
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0.1em;
+	padding: 0.5em;
+
+	font-size: small;
+	font-family: monospace, courier;
+
+	border-radius: 10px;
+	border: 1px solid transparent;
+}
+
+.courses:hover {
+	background-color: #eab6c9;
+	border: 1px dashed black;
+}
+
+.course-title {
+	cursor: pointer;
+}
+
+.courses img {
+	width:  16px;
+	height:  16px;
+
+	margin-bottom:  2px;
+	margin-top:  2px;
+	margin-right: 0.5em;
+	vertical-align: middle;
+
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+@media only screen and (max-width: 725px) {
+	#main h1 { font-size: x-large }
+}
