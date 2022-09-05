@@ -38,6 +38,7 @@ body {
 	padding: 0.5%;
 	cursor: pointer;
 	font-size: large;
+	outline: none;
 }
 
 .courses {
@@ -60,6 +61,7 @@ body {
 
 .course-title {
 	cursor: pointer;
+	outline: none;
 }
 
 .courses img {
