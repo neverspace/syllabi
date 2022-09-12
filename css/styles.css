@@ -26,6 +26,7 @@ body {
 	padding: 0.5%;
 	border: 1px solid white;
 	border-radius: 10px;
+	background-color: white;
 }
 
 .category:hover {
@@ -39,6 +40,9 @@ body {
 	cursor: pointer;
 	font-size: large;
 	outline: none;
+	position: sticky;
+	top: 0;
+	background-color: inherit;
 }
 
 .courses {
