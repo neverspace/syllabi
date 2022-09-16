@@ -101,7 +101,7 @@ def prettycategoryname(category):
 
 def generatehtml(htmlmap):
 	category_html = '<details open class="{classname}">{summary}{courses}</details>'
-	course_html   = '<details class="{classname}">{summary}<ul>{div}</ul></details>'
+	course_html   = '<details class="{classname}">{summary}{div}</details>'
 
 	categories = []
 	for category in htmlmap:
@@ -126,7 +126,7 @@ def generatehtml(htmlmap):
 			courses.append(course_html.format(
 				classname = 'courses',
 				summary   = '<summary class="course-title">' + course_name + '</summary>',
-				div       = '<div>' + '\n'.join(bullets) + '</div>'
+				div       = '<div><ul>' + '\n'.join(bullets) + '</ul></div>'
 			))
 
 		categories.append(category_html.format(
