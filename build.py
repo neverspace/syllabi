@@ -100,7 +100,7 @@ def prettycategoryname(category):
 	return category.replace('-', ' ').title().replace('Cs', 'CS')
 
 def generatehtml(htmlmap):
-	category_html = '<details open class="{classname}">{summary}{courses}</details>'
+	category_html = '<details open class="{classname}">{summary}<div class="content">{courses}</div></details>'
 	course_html   = '<details class="{classname}">{summary}{div}</details>'
 
 	categories = []
