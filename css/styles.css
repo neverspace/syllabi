@@ -30,7 +30,7 @@ body {
 }
 
 .category:hover {
-	background-color: #A7C7E7;
+	background-color: lightgray;
 	border: 1px dashed black;
 	transition: 0.3s;
 }
@@ -42,7 +42,7 @@ body {
 	outline: none;
 	position: sticky;
 	top: 0;
-	background-color: inherit;
+	background-color: lightgray;
 }
 
 .courses {
@@ -59,7 +59,7 @@ body {
 }
 
 .courses:hover {
-	background-color: #eab6c9;
+	background-color: darkgray;
 	border: 1px dashed black;
 }
 
