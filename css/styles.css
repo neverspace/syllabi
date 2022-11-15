@@ -27,7 +27,6 @@ body {
 	border: 1px solid white;
 	border-radius: 10px;
 	background-color: white;
-	transition: 0.5s;
 }
 
 .category[open]:hover {
@@ -45,7 +44,7 @@ body {
 	position: sticky;
 	top: 0;
 	background-color: lightgray;
-	transition: 0.5s;
+	transition: 0.2s;
 }
 
 .category[open]:hover .category-title {
@@ -96,9 +95,5 @@ body {
 	.category-title {
 		border-radius: 10px;
 		padding: 1.5%;
-		transition: 0s;
-	}
-	.category {
-		transition: 0s;
 	}
 }
