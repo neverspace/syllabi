@@ -96,5 +96,9 @@ body {
 	.category-title {
 		border-radius: 10px;
 		padding: 1.5%;
+		transition: 0s;
+	}
+	.category {
+		transition: 0s;
 	}
 }
